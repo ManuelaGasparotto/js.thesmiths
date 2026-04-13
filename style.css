@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background: #0d0d0d;
+    color: #eaeaea;
+}
+
+header {
+    text-align: center;
+    padding: 30px 20px;
+    border-bottom: 1px solid #333;
+}
+
+header h1 {
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #aaa;
+}
+
+.container {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 25px;
+    padding: 20px;
+    background: #1a1a1a;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+h2 {
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+
+.input-area {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    background: #111;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 6px;
+}
+
+button {
+    padding: 10px 15px;
+    background: #2a2a2a;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #444;
+}
+
+/* LISTA */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #333;
+    transition: 0.2s;
+}
+
+li:hover {
+    transform: scale(1.01);
+}
+
+
+.remove-btn {
+    background: #5a1a1a;
+}
+
+
+.done {
+    text-decoration: line-through;
+    color: #777;
+}
+
+/* YOUTUBE */
+iframe {
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+}
+
+button {
+    padding: 10px;
+    background: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+li {
+    background: #333;
+    margin: 10px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remove-btn {
+    background: red;
+}
+
+.done {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+
